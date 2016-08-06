@@ -1,0 +1,54 @@
+#contato{
+	background-color:#BEBEBE;
+}
+#formulario{
+	background:rgba(0,0,0,0.4);
+	width:450px;
+	padding:25px 20px 5px 25px;
+	box-sizing:border-box;
+	border-radius:5px;
+	float: right;
+	margin-right: 10%;
+}
+input, textarea, select{
+	width:100%;
+	height:30px;
+
+}
+textarea{
+	height:100px;
+}
+#enviar{
+	color:#000000;
+	font-weight:bold;
+	
+}
+#enviar:hover{
+	cursor:pointer;
+	
+}
+@media(max-width:700px){
+	#formulario{
+		width:350px;
+	}
+}
+@media(max-width:500px){
+
+	#formulario{
+		width:250px;
+	}
+	h1{
+		font-size:26px;
+	}
+	input, textarea, select{
+		width:100%;
+		height:20px;
+
+	}
+	textarea{
+		height:70px;
+	}
+	.conteudo{
+		width:100%;
+	}
+}

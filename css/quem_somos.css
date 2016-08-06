@@ -1,0 +1,18 @@
+#quem_somos{
+	background-color:#9AC0CD;
+}
+
+#imgs_quemsomos{
+	display: inline-flex;
+}
+
+div.imagens{
+	width: 396px;
+	padding: 20px;
+	height: 700;
+	border: 1px solid black;
+}
+
+img{
+	border-radius: 2px;
+}

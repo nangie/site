@@ -1,0 +1,56 @@
+.corpo{
+	background-color:#fff;
+	padding-top:43px;
+	min-height:840px;
+	text-align:center;
+}
+
+#inicio{
+	
+	
+}
+#servicos{
+	
+}
+#quem_somos{
+	
+}
+#contato{
+	
+	/*background-size:100vw 100vh*/
+}
+
+.conteudo{
+	width:100%;
+	margin: 0px auto;
+	text-align:center;
+}
+.rodape{
+	min-height:60px;
+	padding-top:10px;
+}
+
+
+
+@media(max-width:750px){
+	.corpo{
+		min-height:500px;
+		padding-top:24px;
+	}
+	.rodape{
+		min-height:60px;
+	}
+	.conteudo{
+		width:100%;
+	}
+
+}
+@media(max-width:500px){
+	.corpo{
+		min-height:400px;
+		padding-top:25px;
+	}
+
+	
+}
+
