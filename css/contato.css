@@ -1,6 +1,15 @@
 #contato{
 	background-color:#BEBEBE;
 }
+#contato-2{
+	display: inline-flex;
+	margin-top: 120px;
+}
+
+#informacoes{
+	width:450px;
+}
+
 #formulario{
 	background:rgba(0,0,0,0.4);
 	width:450px;
