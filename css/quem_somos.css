@@ -1,18 +1,50 @@
+@charset "utf-8";
+
 #quem_somos{
 	background-color:#9AC0CD;
+	font-family: "Open Sans","arial",sans-serif;
 }
 
 #imgs_quemsomos{
 	display: inline-flex;
 }
 
-div.imagens{
+img{
+	border-radius: 2px;
+}
+
+.legenda-imagem{
 	width: 396px;
 	padding: 20px;
 	height: 530px;
-	border: 1px solid black;
 }
 
-img{
-	border-radius: 2px;
+.legenda-imagem figcaption{
+	width: 366px;
+	height: 40px;
+	opacity: 0;
+	color: black;
+	background-color: #DCDCDC;
+	position: absolute;
+	text-align: center;
+	margin-top: -70px;
+	padding: 15px;
+	transition: opacity 1s;
+}
+
+.legenda-imagem figcaption h4{
+	margin-top: 8px;
+}
+
+/* quando mouse passar por cima */
+.legenda-imagem:hover figcaption{
+	opacity: 1;
+}
+
+.legenda-imagem:hover figcaption h4{
+	margin-top: 8px;
+}
+
+p{
+	text-align: justify;
 }
