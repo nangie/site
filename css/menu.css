@@ -34,13 +34,14 @@ header label:hover{
 	display:flex;
 	justify-content:center;
 }
+
 .menu li a{
 	display:block;
 	padding:12px 20px; /*15px cima e baixo - 20px lados */
 	text-decoration:none;
 	color:#fff;
-	
 }
+
 .menu li a:hover{
 	background-color: rgba(0,0,0,0.3);
 	

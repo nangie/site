@@ -4,7 +4,7 @@
 }
 .resumo{
 	width:65%;
-	padding-left:30px;
+	padding:40px;
 	margin: auto;
 	font-size: 18px;
 	text-align: justify;
@@ -16,7 +16,7 @@
 }
 .slider{
 	width:100%;
-	height: 325px;
+	height: 290px;
 	overflow:hidden;
 	background-color: #CCCCCC;
 	
