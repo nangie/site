@@ -36,7 +36,6 @@
 @media(max-width:750px){
 	.corpo{
 		min-height:500px;
-		padding-top:24px;
 	}
 	.rodape{
 		min-height:60px;
@@ -49,7 +48,6 @@
 @media(max-width:500px){
 	.corpo{
 		min-height:400px;
-		padding-top:25px;
 	}
 
 	

@@ -5,10 +5,11 @@
 #contato-2{
 	display: inline-flex;
 	margin-top: 120px;
+	width: 100%;
 }
 
 #informacoes{
-	width:450px;
+	width: 50%;
 }
 
 #formulario{
@@ -20,19 +21,26 @@
 	float: right;
 	margin-right: 10%;
 }
-input, textarea, select{
+input, select{
 	width:100%;
 	height:30px;
 
+
 }
-textarea{
+textarea#mensagem{
 	height:100px;
+	max-width: 405px;
+	min-width: 405px;
 }
 #enviar{
 	color:#000000;
 	font-weight:bold;
-	
+	background-color: #9AC0CD;
+	border-radius: 2px;
+	border: 0;
+	height: 40px;
 }
+
 #enviar:hover{
 	cursor:pointer;
 	
