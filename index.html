@@ -11,6 +11,10 @@
 		<link rel="stylesheet" href="css/servicos.css">
 		<link rel="stylesheet" href="css/quem_somos.css">
 		<link rel="stylesheet" href="css/contato.css">
+		
+        <script src="js/jquery-3.1.0.min.js"></script>
+        <script src="js/inicio.js"></script>
+
 	</head>
 	<body>
 
@@ -20,10 +24,10 @@
 
 			<nav class="menu">
 				<ul>
-				  <li><a href="#inicio">Início</a></li>
-				  <li><a href="#servicos">Serviços</a></li>
-				  <li><a href="#quem_somos">Quem somos</a></li>
-				  <li><a href="#contato">Contato</a></li>
+				  <li><a class="scroll" href="#inicio">Início</a></li>
+				  <li><a class="scroll" href="#servicos">Serviços</a></li>
+				  <li><a class="scroll" href="#quem_somos">Quem somos</a></li>
+				  <li><a class="scroll" href="#contato">Contato</a></li>
 				</ul>
 			</nav>
 
@@ -60,11 +64,11 @@
 		
 		<div class="corpo" id="quem_somos">
 			<div class="conteudo">
-				<h1>Quem Somos</h1>
 				<div id="imgs_quemsomos">
 					<div class="legenda-imagem borda-imagem">
+						<figure>
 						<img src="img/Missão.png" />
-                        <figcaption><h4>Missão</h4> </figcaption>
+                        <figcaption><h4>Missão</h4> </figcaption> </figure>
 
                         <p>
                             Missão é um encargo, uma incumbência, um propósito, é uma função específica que se confere a alguém para
@@ -76,8 +80,9 @@
                         </p>
 					</div>
 					<div class="legenda-imagem borda-imagem">
+						<figure>
 						<img src="img/Valores.jpg" />
-                        <figcaption><h4>Valores</h4> </figcaption>
+                        <figcaption><h4>Valores</h4> </figcaption> </figure>
 
                         <p>
                             Valores são o conjunto de características de uma determinada organização, que determinam a forma como a
@@ -90,8 +95,9 @@
                         </p>
 					</div>
 					<div class="legenda-imagem borda-imagem">
+						<figure>
 						<img src="img/Política%20Empresarial.jpg" />
-                        <figcaption><h4> Política Empresarial</h4> </figcaption>
+                        <figcaption><h4> Política Empresarial</h4> </figcaption> </figure>
 
                         <p>
                             Política empresarial é a guia de definições estratégicas que são os alicerces da organização.
@@ -110,34 +116,33 @@
 		<div class="corpo" id="contato">
 			<div class="conteudo">
 
-				<h1>Contate-nos</h1>
+				<div class="col-lg-12" id="contato-2">
+					<div class="col-lg-6" id="informacoes">
+						<img id="logocontato" src="img/logo.png">
+						<p id="cont">Contate-nos</p>
+						<p>Taboão da Serra - SP <br />
+							Telefone: (11) 4383- <br />
+							E-mail: nangie.infor@gmail.com
+						</p>
 
-				<div id="contato-2">
-				<div id="informacoes">
-					<img src="img/logo.png">
-					<p>Taboão da Serra - SP <br />
-						Telefone: (11) 4383- <br />
-						E-mail: nangie.infor@gmail.com
-					</p>
-
-				</div>
-				<div id="formulario">
+					</div>
+					<div class="col-lg-6" id="formulario">
 				
-					<form action="php/envio.php" method="post">	
-						<input type="text" name="nome" id="nome" placeholder="Nome" required/>
-						<input type="text" name="email" id="email" placeholder="E-mail" required>
-						<input type="text" name="telefone" id="telefone" placeholder="Telefone">
-						<select id="assunto" name="assunto" required>
-							<option selected disabled>--Selecione seu Assunto--</option>
-							<option value="Duvida">Dúvida</option>
-							<option value="Elogio">Elogio</option>
-							<option value="Sugestao">Sugestão</option>
-							<option value="Trabalho">Quero Trabalhar</option>
-						</select>
-						<textarea name="mensagem" id="mensagem" rows="10" cols="25" wrap="virtual" placeholder="Mensagem" required></textarea>
-						<input id="enviar" type="submit" value="Enviar">
-					</form>
-				</div>
+						<form action="php/envio.php" method="post">	
+							<input type="text" name="nome" id="nome" placeholder="Nome" required/>
+							<input type="text" name="email" id="email" placeholder="E-mail" required>
+							<input type="text" name="telefone" id="telefone" placeholder="Telefone">
+							<select id="assunto" name="assunto" required>
+								<option selected disabled>--Selecione seu Assunto--</option>
+								<option value="Duvida">Dúvida</option>
+								<option value="Elogio">Elogio</option>
+								<option value="Sugestao">Sugestão</option>
+								<option value="Trabalho">Quero Trabalhar</option>
+							</select>
+							<textarea name="mensagem" id="mensagem" rows="10" cols="25" wrap="virtual" placeholder="Mensagem" required></textarea>
+							<input id="enviar" type="submit" value="Enviar">
+						</form>
+					</div>
 				</div>
 			</div>
 		</div>

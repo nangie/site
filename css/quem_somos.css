@@ -3,33 +3,41 @@
 #quem_somos{
 	background-color:#9AC0CD;
 	font-family: "Open Sans","arial",sans-serif;
+
 }
 
 #imgs_quemsomos{
 	display: inline-flex;
+	flex-wrap: wrap; /*acrescentado*/
+	justify-content:center;
+	margin-top:50px;
 }
-
+#imgs_quemsomos img{
+	width:372px;
+	height:272px;
+}
 img{
 	border-radius: 2px;
 }
 
 .legenda-imagem{
-	width: 396px;
+	width: 374px;
 	padding: 20px;
 	height: 530px;
 }
 
 .legenda-imagem figcaption{
-	width: 366px;
-	height: 40px;
+	width: 330px;
+	height: 28px;
 	opacity: 0;
 	color: black;
 	background-color: #DCDCDC;
 	position: absolute;
 	text-align: center;
 	margin-top: -70px;
-	padding: 15px;
+	padding: 22px;
 	transition: opacity 1s;
+	z-index: 0;
 }
 
 .legenda-imagem figcaption h4{
@@ -47,4 +55,57 @@ img{
 
 p{
 	text-align: justify;
+}
+
+@media(max-width:750px){
+	#imgs_quemsomos img{
+		width:332px;
+		height:232px;
+	}
+	
+	.legenda-imagem{
+		width: 332px;
+		padding: 20px;
+		height: 530px;
+	}
+
+	.legenda-imagem figcaption{
+		width: 289px;
+		height: 28px;
+		margin-top: -70px;
+		padding: 22px;
+	}
+	#imgs_quemsomos p{
+		font-size:16px;
+	}
+}
+
+@media(max-width:400px){
+	#imgs_quemsomos img{
+		width:202px;
+		height:142px;
+	}
+	.legenda-imagem{
+		width: 202px;
+		padding: 20px;
+		height: 530px;
+		
+	}
+
+	.legenda-imagem figcaption{
+		width: 158px;
+		height: 0px;
+		margin-top: -43px;
+		padding: 22px;
+	
+	}
+	.legenda-imagem figcaption h4{
+		margin-top: -8px;
+	}
+	.legenda-imagem:hover figcaption h4{
+		margin-top: -8px;
+	}
+	#imgs_quemsomos p{
+		font-size:14px;
+	}
 }

@@ -3,29 +3,30 @@
 	font-family: "Open Sans","arial",sans-serif;
 }
 .resumo{
-	width:65%;
+	width:75%;/*65%*/
 	padding:40px;
 	margin: auto;
-	font-size: 18px;
+	/*font-size: 17px; 18px*/
 	text-align: justify;
 }
 
 .logo{
 	background-color:#CCCCCC;
-	
+	padding-bottom:10px;/*acrescentado*/
+	padding-top:10px;/*acrescentado*/
 }
 .slider{
 	width:100%;
-	height: 290px;
+	height: auto;
 	overflow:hidden;
-	background-color: #CCCCCC;
-	
 }
+
 .slider img{
 	width:100%;
 
 }
 .slider ul {
+	margin: 0;
 	padding:0px;
 	display:flex;
 	width:400%;
@@ -48,8 +49,22 @@
 	75%{margin-left:-300%;}
 	100%{margin-left:-300%;}/*4ªimagem*/
 }
+
+@media(max-width:750px){
+	.resumo{
+		font-size:16px;
+	}
+
+}
 @media(max-width:500px){
 	.slider{
 		width:100%;
+	}
+	.resumo{
+		font-size:14px;
+	}
+	.logo img{
+		width:180px;
+		height:45px;
 	}
 }

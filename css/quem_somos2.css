@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+#quem_somos{
+	background-color:#9AC0CD;
+	font-family: "Open Sans","arial",sans-serif;
+	padding-bottom:10px;
+}
+
+#imgs_quemsomos{
+	display:flex;
+}
+
+.legenda-imagem_borda-imagem img{
+	border-radius: 2px;
+	
+	
+}
+.legenda-imagem{
+	width:40%;
+	
+}
+.legenda-imagem p{
+	text-align:justify;
+	
+}
+.legenda-imagem figcaption{
+	opacity:0;
+}
+/*
+.legenda-imagem{
+	width: 396px;
+	width:100%;
+	padding: 20px;
+	height: 530px;
+}
+
+.legenda-imagem figcaption{
+	width: 366px;
+	height: 40px;
+	opacity: 0;
+	color: black;
+	background-color: #DCDCDC;
+	position:relative; 
+	text-align: center;
+	margin-top: -70px;
+	padding: 15px; 
+	transition: opacity 1s;
+}
+
+.legenda-imagem figcaption h4{
+	margin-top: 8px;
+}
+
+.legenda-imagem:hover figcaption{
+	opacity: 1;
+}
+
+.legenda-imagem:hover figcaption h4{
+	margin-top: 8px;
+}
+
+p{
+	text-align: justify;
+}
+*/

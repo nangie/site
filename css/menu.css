@@ -1,6 +1,6 @@
 body{
 	margin:0px;
-	background-color:#5F9EA0;
+	background-color:#BEBEBE;
 	font-family: "Open Sans","arial",sans-serif;
 }
 label img{
@@ -27,12 +27,14 @@ header label:hover{
 	background-color:#778899;
 	opacity:0.5;
 }
+
 .menu ul{
 	margin:0px;
 	list-style:none;
 	padding:0px;
 	display:flex;
 	justify-content:center;
+	
 }
 
 .menu li a{
@@ -40,6 +42,7 @@ header label:hover{
 	padding:12px 20px; /*15px cima e baixo - 20px lados */
 	text-decoration:none;
 	color:#fff;
+
 }
 
 .menu li a:hover{
@@ -49,26 +52,7 @@ header label:hover{
 
 
 @media(max-width:700px){
-	/*header label{
-		display:block;
-	}
-	.menu{
-		position: absolute;
-		background:#778899;
-		width:60%;
-		margin-left:-70%;
-		transition: all 0.5s;
-		
-	}
-	.menu ul{
-		flex-direction:	column;
-	}
-	.menu li{
-		border-top: 1px solid #fff;
-	}
-	#btn-menu:checked ~ .menu{
-		margin:0;
-	}*/
+	
 	.menu li a{
 		padding:10px 15px; 
 
