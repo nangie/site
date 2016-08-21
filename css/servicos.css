@@ -2,3 +2,15 @@
 	background-color:#BEBEBE;
 	font-family: "Open Sans","arial",sans-serif;
 }
+
+#texts{
+	margin-left: 35px;
+}
+
+#imgs_servicos{
+	margin-top: 50px;
+}
+
+.img-s{
+	padding: 5px;
+}

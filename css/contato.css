@@ -20,6 +20,12 @@
 	font-weight:bold;
 }
 
+#dados{
+	width: 250px;
+	margin-left: 230px;
+	margin-top: 60px;
+}
+
 .col-lg-12{
 	display:flex;
 	flex-wrap: wrap;
@@ -77,11 +83,12 @@ textarea#mensagem{ /*Consertar responsividade*/
 @media(max-width:500px){
 
 	#formulario{
-		width:250px;
+		width:360px;
+		margin-right: 0;
 	}
 	textarea#mensagem{ 
 		height:100px;
-		max-width: 250px;
+		max-width: 315px;
 		min-width: 150px;
 	}
 	
@@ -101,11 +108,22 @@ textarea#mensagem{ /*Consertar responsividade*/
 			height:54px;
 	}
 	#informacoes{/*Acrescentado*/
-		width:300px;
+		width:355px;
 		font-size:14px;
 	}
 	#cont{/*Acrescentado*/
 		font-size:20px;
 	}
 	
+}
+
+@media all and (max-width: 400px){
+	#informacoes{
+		width: 300px;
+	}
+
+	#formulario{
+		width: 300px;
+	}
+
 }

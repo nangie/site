@@ -15,6 +15,7 @@ header{
 	opacity: 1;
 	margin-top:0px;
 	position:fixed;
+	z-index: 99999;
 }
 #btn-menu{
 	display:none;
