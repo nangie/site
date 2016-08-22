@@ -5,6 +5,7 @@
 
 #texts{
 	margin-left: 35px;
+	width: 90%;
 }
 
 #imgs_servicos{
@@ -13,4 +14,10 @@
 
 .img-s{
 	padding: 5px;
+}
+
+@media all and (max-width: 450px){
+	#texts{
+		width: 80%;
+	}
 }
