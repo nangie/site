@@ -1,0 +1,100 @@
+<html lang="pt-br">
+	<head>
+		<title>Nangie Infor</title>
+
+		<meta charset="utf-8">		
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+		<link rel="stylesheet" href="../css/estilo_loja.css">
+	</head>
+	<body>
+
+		<br/>
+		<div id="produtos_ind">
+		
+			<div id="produto_ind">
+			
+				<img src="../img/teste.jpg"/>
+				<h3>Site Simples - R$ 700,00</h3>
+				<!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
+				<form action="https://pagseguro.uol.com.br/checkout/v2/payment.html" method="post" onsubmit="PagSeguroLightbox(this); return false;">
+				<!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
+				<input type="hidden" name="code" value="ABF7F44E4D4D8C4EE4B58FAC9229C423" />
+				<input type="hidden" name="iot" value="button" />
+				<input type="image" src="https://stc.pagseguro.uol.com.br/public/img/botoes/pagamentos/120x53-comprar.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+				</form>
+				<script type="text/javascript" src="https://stc.pagseguro.uol.com.br/pagseguro/api/v2/checkout/pagseguro.lightbox.js"></script>
+				<!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
+			</div>
+			<div id="descricao">
+				
+				<a href="#img1"><img src="../img/teste.jpg"/><a>
+				<a href="#img2"><img src="../img/teste.jpg"/><a>
+				<a href="#img3"><img src="../img/teste.jpg"/><a>
+				<a href="#img4"><img src="../img/teste.jpg"/><a>
+				<a href="#img5"><img src="../img/teste.jpg"/><a>
+				<p>
+				Ótimo para quem quer ter maior visibilidade no mercado, sem precisar gastar muito!
+				Escolha como quer seu site, imagine e realize! 
+				<br/>
+				&#10004; &nbsp; 5 Páginas<br/>
+				&#10004; &nbsp; Envio de email na página de contatos<br/>
+				&#10004; &nbsp; Sites criados totalmente do zero. <br/>
+				&#10004; &nbsp; Reproduzimos o que está na mente do cliente.<br/>
+				&#10004; &nbsp; Garantimos a satisfação do cliente.<br/>
+				&#10004; &nbsp; Imagens que não sejam dos produtos são nossa responsabilidade (banners, slides...).<br/>
+					
+				</p>
+				</div>
+				
+				
+			</div>
+		</div>
+		<div id="voltar"><a href="../index.html#servicos">Voltar</a></div>
+		
+		<div class="modal" id="img1">
+			<h3>Página Inicial</h3>
+			<div class="imagem">
+				<a href="#img5">&#60</a>
+				<a href="#img1"><img src="../img/teste.jpg"/></a>
+				<a href="#img2">></a>
+			</div>
+			<a class="encerrar" href="#">X</a>
+		</div>
+		<div class="modal" id="img2">
+			<h3>Página Inicial 2</h3>
+			<div class="imagem">
+				<a href="#img1">&#60</a>
+				<a href="#img2"><img src="../img/teste2.png"/></a>
+				<a href="#img3">></a>
+			</div>
+			<a class="encerrar" href="#">X</a>
+		</div>
+		<div class="modal" id="img3">
+			<h3>Página Inicial 3</h3>
+			<div class="imagem">
+				<a href="#img2">&#60</a>
+				<a href="#img3"><img src="../img/teste.jpg"/></a>
+				<a href="#img4">></a>
+			</div>
+			<a class="encerrar" href="#">X</a>
+		</div>
+		<div class="modal" id="img4">
+			<h3>Página Inicial 4</h3>
+			<div class="imagem">
+				<a href="#img3">&#60</a>
+				<a href="#img4"><img src="../img/teste2.png"/></a>
+				<a href="#img5">></a>
+			</div>
+			<a class="encerrar" href="#">X</a>
+		</div>
+		<div class="modal" id="img5">
+			<h3>Página Inicial 5</h3>
+			<div class="imagem">
+				<a href="#img4">&#60</a>
+				<a href="#img5"><img src="../img/teste.jpg"/></a>
+				<a href="#img1">></a>
+			</div>
+			<a class="encerrar" href="#">X</a>
+		</div>
+	</body>
+</html>
