@@ -1,23 +1,18 @@
 #servicos{
 	background-color:#BEBEBE;
-	
 }
-
 #texts{
 	margin-top: 60px;
 	margin-left: 40px;
 	width: 90%;
 }
-
 #imgs_servicos{
 	margin-top: 50px;
 	margin-left: 20px;
 	display: inline-flex;
-	display:inline-flex;
+	
 	flex-wrap:wrap;
 	justify-content:center;
-	
-	
 }
 #carousel{
 	margin-bottom:20px;
@@ -44,11 +39,18 @@
 	#texts{
 		width: 80%;
 	}
+	#imgs_servicos{
+		width: 80%;
+	}
+
 	#imgs_servicos img{
 		width:202px;
 		height:142px;
+		margin:auto;
+		justify-content:center;
 	}
 	#texts p{
 		font-size:14px;
 	}
+	
 }

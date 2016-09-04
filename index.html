@@ -15,20 +15,17 @@
 		<link rel="stylesheet" href="css/contato.css">
 		<link rel="stylesheet" href="css/estilo_loja.css">
 		<link rel="stylesheet" href="css/menu_horizontal.css">
-		
-		<!--Menu Ancoras-->
+        <link rel='stylesheet prefetch' href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/slide.css">
+
 		<script src="js/menu.js"></script>
-
-		<!-- Arquivos do Slide Serviços -->
-
-		<link rel='stylesheet prefetch' href="css/bootstrap.css">
-		<link rel="stylesheet" href="css/slide.css">
-
-        	<script src="js/jquery-3.1.0.min.js"></script>
-        	<script src="js/inicio.js"></script>
-		<script src="js/slide.js"></script>
-
+        <script src="js/jquery-3.1.0.min.js"></script>
+        <script src="js/inicio.js"></script>
 		<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.js'></script>
+        <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js'></script>
+
+
+        <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js'></script>
 		
 	</head>
 	<body>
@@ -38,6 +35,9 @@
 			<label for="btn-menu"><img src="img/icone/menu_branco.png" id="icone"/></label>
 
 			<nav class="menu">
+                <ul><img id="logo" src="img/logo.png"/></ul>
+
+                <!-- Menu -->
 				<ul>
 				  <li><a href="#inicio">Início</a></li>
 				  <li><a href="index.html#servicos" id="s">Serviços</a>
@@ -48,16 +48,17 @@
 						<li><a href="#servicos" id="ap" onclick="Mostrar()">Alimentação de Perfis</a></li>
 					</ul>
 				  </li>
-				  <li><a href="index.html#quem_somos">Quem somos</a></li>
+				  <li><a href="index.html#quem_somos">Quem Somos</a></li>
 				  <li><a href="#contato">Contato</a></li>
 				</ul>
 			</nav>
 
 		</header>
 
+        <!-- Início -->
 		<div class="corpo" id="inicio">
 			<div class="conteudo">
-				<div class="logo"><img src="img/logo.png"/></div>
+				<!--<div class="logo"><img src="img/logo.png"/></div>-->
 				<div class="slider">
 					<ul>
 						<li><img src="img/banner01.png"/></li>
@@ -73,8 +74,8 @@
                     Outra classificação igualmente possível para as empresas é de acordo com a sua constituição jurídica. Existem empresas individuais (que pertencem a uma única pessoa) e societárias (constituídas por várias pessoas). Neste último grupo, as sociedades, por sua vez, podem ser anónimas, de responsabilidade limitada e de economia social (as chamadas cooperativas), entre outras.
                     As empresas também podem ser definidas de acordo com a respectiva titularidade do capital. Assim, mencionaremos as empresas privadas (cujo capital está nas mãos de particulares), as públicas (controladas pelo Estado), as mistas (o capital é partilhado por particulares e pelo Estado) e as empresas de autogestão (o capital é propriedade dos trabalhadores).
                     A gestão de empresas, no que lhe diz respeito, é uma ciência social que se dedica ao estudo da organização destas entidades, analisando a forma como são geridos os seus recursos, processos e os resultados das suas atividades.
-
                 </div>
+
 			</div>
 		</div>
 
@@ -95,8 +96,8 @@
 							<div class="carousel-inner">
 								<div class="active item"><img src="img/servicos01.jpg" /></div>
 								<div class="item">	 <img src="img/servicos02.jpg" /></div>
-								<div class="item">	 <img src="img/servicos01.jpg" /></div>
-								<div class="item">	 <img src="img/servicos02.jpg" /></div>
+								<div class="item">	 <img src="img/servicos03.jpg" /></div>
+								<div class="item">	 <img src="img/servicos04.jpg" /></div>
 							</div>
 						</div>
 
@@ -110,9 +111,9 @@
 							<!-- Carousel items -->
 							<div class="carousel-inner">
 								<div class="active item"><img src="img/servicos05.jpg" /></div>
-								<div class="item">	 <img src="img/servicos05.jpg" /></div>
-								<div class="item">	 <img src="img/servicos05.jpg" /></div>
-								<div class="item">	 <img src="img/servicos05.jpg" /></div>
+								<div class="item">	 <img src="img/servicos06.jpg" /></div>
+								<div class="item">	 <img src="img/servicos07.jpg" /></div>
+								<div class="item">	 <img src="img/servicos08.jpg" /></div>
 							</div>
 						</div>
 
@@ -160,12 +161,21 @@
 			</div>
 			
 			<!--Segunda Parte Serviços-->
+
 			<div class="criacao" id="criacao">
 				<br/>
+
 				<div id="banner_pagseguro">
-					<img src="https://stc.pagseguro.uol.com.br/public/img/banners/pagamento/todos_animado_550_50.gif" alt="Logotipos de meios de pagamento do PagSeguro" title="Este site aceita pagamentos com Visa, MasterCard, Diners, American Express, Hipercard, Aura, Elo, PLENOCard, PersonalCard, BrasilCard, FORTBRASIL, Cabal, Mais!, Avista, Grandcard, Sorocred, Bradesco, Itaú, Banco do Brasil, Banrisul, Banco HSBC, saldo em conta PagSeguro e boleto.">
+					<img src="https://stc.pagseguro.uol.com.br/public/img/banners/pagamento/todos_animado_550_50.gif"
+                         alt="Logotipos de meios de pagamento do PagSeguro"
+                         title="Este site aceita pagamentos com Visa, MasterCard, Diners, American Express, Hipercard, Aura,
+                          Elo, PLENOCard, PersonalCard, BrasilCard, FORTBRASIL, Cabal, Mais!, Avista, Grandcard, Sorocred, Bradesco,
+                           Itaú, Banco do Brasil, Banrisul, Banco HSBC, saldo em conta PagSeguro e boleto.">
 				</div>
+
 				<br/>
+
+                <!-- Menu Itens -->
 				<div id="itens">
 					<div id="menu-horizontal">
 						<ul>
@@ -175,63 +185,171 @@
 							<a href="#servicos" id="aph"><li>Gerenciamento de Perfis</li></a>
 						</ul>
 					</div>
+
+                    <!-- Criação de Sites -->
+
 					<div class="produtos" id="produtos">
 						
-						<div id="produto">
+						<div class="produto-cs">
 							<a href="html/produto.html">
-							<img src="img/teste.jpg"/>
+							<img class="img-produtos" src="img/teste.jpg"/>
 							<h3>Site Simples</h3>
 							</a>
 						</div>
 						
-						<div id="produto">
+						<div class="produto-cs">
 							<a href="html/produto2.html">
-							<img src="img/teste.jpg"/>
+							<img class="img-produtos" src="img/teste.jpg"/>
 							<h3>Site com Gerenciador</h3>
 							</a>
 						</div>
 						
-						<div id="produto">
+						<div class="produto-cs">
 							<a href="html/produto3.html">
-							<img src="img/teste.jpg"/>
+							<img class="img-produtos" src="img/teste.jpg"/>
 							<h3>Site E-commerce</h3>
 							</a>
 						</div>
 						
-						<div id="produto">
+						<div class="produto-cs">
 							<a href="html/produto4.html">
-							<img src="img/teste.jpg"/>
+							<img class="img-produtos" src="img/teste.jpg"/>
 							<h3>Site Chat</h3>
 							</a>
 						</div>
 					</div>
-					
-					
-					<!--Acrescentado-->
-				
-					
+
+					<!-- Manutenção de Sites -->
+
 					<div id="manutencao"  class="produtos">
-						<h3>Manutenção de Sites</h3>
-					</div>
+                            <div class="produtos" id="produtos">
+
+                                <!-- Imagens dos Produtos -->
+                                <div class="produto-ms">
+                                    <a  href="html/produto.html">
+                                        <img class="img-produtos" src="img/teste.jpg"/>
+                                    </a>
+                                </div>
+
+                                <div class="produto-ms">
+                                    <a href="html/produto2.html">
+                                        <img class="img-produtos" src="img/teste.jpg"/>
+                                    </a>
+                                </div>
+
+                                <div class="produto-ms">
+                                    <a href="html/produto3.html">
+                                        <img class="img-produtos" src="img/teste.jpg"/>
+                                    </a>
+                                </div>
+
+                                <p id="descricao-ms">O simples fato de “estar” na internet já não é garantia de mais nada.
+                                    É fundamental que este site ou blog sejam atualizados constantemente.
+                                    O que adianta uma empresa ter um site, mas com destaque de um produto que está fora de linha,
+                                    valores desatualizados ou ter uma mensagem de feliz natal quando já estamos na páscoa?
+                                </p>
+
+                                <ul id="ul-ms">
+                                    <li>&#10004; Alteração de Cores</li>
+                                    <li>&#10004; Ajustes na Interface</li>
+                                    <li>&#10004; Gerenciamento de Informações</li>
+                                    <li>&#10004; Gerenciamento de Valores de Hospedagem</li>
+                                    <li>&#10004; Atualização de Dados</li>
+                                    <li>&#10004; Atualização de Temas e Templates</li>
+                                    <li>&#10004; Inserção de Produtos</li>
+                                </ul>
+
+                                <a id="contato-ms" href="#contato">Contate-nos!</a>
+					    </div>
+                    </div>
+
+                    <!-- Criação de Perfis -->
+
 					<div id="criacao_perfil"  class="produtos">
-						<h3>Criação de Perfis</h3>
+                        <div class="produtos" id="produtos">
+
+                            <!-- Imagens dos Produtos -->
+                            <div class="produto-ms">
+                                <a  href="html/produto.html">
+                                    <img class="img-produtos" src="img/teste.jpg"/>
+                                </a>
+                            </div>
+
+                            <div class="produto-ms">
+                                <a href="html/produto2.html">
+                                    <img class="img-produtos" src="img/teste.jpg"/>
+                                </a>
+                            </div>
+
+                            <div class="produto-ms">
+                                <a href="html/produto3.html">
+                                    <img class="img-produtos" src="img/teste.jpg"/>
+                                </a>
+                            </div>
+
+                            <p id="descricao-ms">As  redes sociais  se tornaram uma ferramenta de comunicação indispensável para
+                                qualquer empresa e isto envolve grandes vantagens e benefícios. Da mesma forma que as redes sociais
+                                tornaram-se agora uma parte vital do relacionamento com amigos, familiares e estranhos, as mesmas coisa
+                                acontece com as empresas com relação aos seus clientes.
+                            </p>
+
+                            <ul id="ul-cr">
+                                <li>&#10004; Todas as informações preenchidas;  </li>
+                                <li>&#10004; Perfil pronto para usar e divulgar.</li>
+                            </ul>
+
+                            <a id="contato-cr">Ao contratar este serviço, ganhe na hora: <br />
+                                Foto de perfil +  Foto de capa + 3 dias de posts!
+                            </a>
+                        </div>
 					</div>
+
+                        <!-- Alimentação de Redes Sociais -->
+
 					<div id="alimentacao"  class="produtos">
-						<h3>Aliemntação de Perfis</h3>
+                        <div class="produtos" id="produtos">
+
+                            <!-- Imagens dos Produtos -->
+                            <div class="produto-ms">
+                                <a  href="html/produto.html">
+                                    <img class="img-produtos" src="img/teste.jpg"/>
+                                </a>
+                            </div>
+
+                            <div class="produto-ms">
+                                <a href="html/produto2.html">
+                                    <img class="img-produtos" src="img/teste.jpg"/>
+                                </a>
+                            </div>
+
+                            <div class="produto-ms">
+                                <a href="html/produto3.html">
+                                    <img class="img-produtos" src="img/teste.jpg"/>
+                                </a>
+                            </div>
+
+                            <p id="descricao-ms">Hoje em dia é comum que empresas criem perfis no facebook, Instagram,
+                                Twitter etc. O principal objetivo é divulgar suas marcas através das redes sociais. Mas,
+                                de nada adianta ter as ferramentas e não saber usá-las.
+                            </p>
+
+                            <ul id="ul-al">
+                                <li>&#10004; Posts diários</li>
+                                <li>&#10004; Montagem + Descrição</li>
+                                <li>&#10004; Campanhas de Publicidade</li>
+                            </ul>
+
+                            <a id="contato-al" href="#contato"> Conheça nossos pacotes! <br/> Contate-nos! </a>
+                        </div>
 					</div>
-					<!--fim acrescentado-->
-					
-					
 				</div>
 	
 			</div>
-			<!--Fim Segunda Parte-->
-			
-			
 		</div>
 		
 
         <!-- Quem Somos -->
+
 		<div class="corpo" id="quem_somos">
 			<div class="conteudo">
 				<div id="imgs_quemsomos">

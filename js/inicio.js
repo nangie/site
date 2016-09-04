@@ -1,6 +1,8 @@
-$(document).ready(function($) {
-    $(".scroll").click(function(event){
+$(function(){
+    $("ul a").click(function (event) {
         event.preventDefault();
-        $('html,body').animate({scrollTop:$(this.hash).offset().top}, 1000);
+        var idElemento = $(this).attr("href");
+        var deslocamento = $(idElemento).offset().top;
+        $('html, body').animate({ scrollTop: deslocamento }, 1000);
     });
 });

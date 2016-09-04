@@ -1,7 +1,7 @@
 
 function Mostrar(){
 	$('#cs').click(function(){ //Criação de Sites
-		//ocuta
+		//oculta
 			$('#intro_servicos').hide();
 			$('#criacao_perfil').hide();
 			$('#manutencao').hide();
@@ -13,7 +13,7 @@ function Mostrar(){
 		  
 	});
 	$('#ms').click(function(){ //Manutenção de Sites
-		//ocuta
+		//oculta
 			$('#produtos').hide();
 			$('#intro_servicos').hide();
 			$('#alimentacao').hide();

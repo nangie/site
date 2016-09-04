@@ -1,6 +1,8 @@
 #contato{
 	background-color:#BEBEBE;
-		min-height:600px;
+	font-family: "Open Sans","arial",sans-serif;
+	
+	min-height:600px;
 }
 #contato-2{
 	display: flex;
