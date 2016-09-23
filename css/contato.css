@@ -1,7 +1,9 @@
+#logo-contato{
+	width: 300px;
+}
+
 #contato{
 	background-color:#BEBEBE;
-	font-family: "Open Sans","arial",sans-serif;
-	
 	min-height:600px;
 }
 #contato-2{
@@ -15,7 +17,7 @@
 #informacoes{
 	width: 50%;
 }
-#cont{/*Acrescentado*/
+#cont{
 	font-size:24px;
 	font-weight:bold;
 }
@@ -31,6 +33,7 @@
 	flex-wrap: wrap;
 	justify-content:center;
 }
+
 #formulario{
 	background:rgba(0,0,0,0.4);
 	width:450px;
@@ -43,10 +46,9 @@
 input, select{
 	width:100%;
 	height:30px;
-
-
 }
-textarea#mensagem{ /*Consertar responsividade*/
+
+textarea#mensagem{
 	height:100px;
 	max-width: 405px;
 	min-width: 405px;
@@ -63,8 +65,9 @@ textarea#mensagem{ /*Consertar responsividade*/
 
 #enviar:hover{
 	cursor:pointer;
-	
 }
+
+/* -- Responsividade -- */
 
 @media all and (max-width: 1141px){
 	#dados{
@@ -98,9 +101,8 @@ textarea#mensagem{ /*Consertar responsividade*/
 	#contato-2{
 		margin-top: 40px;
 	}
-	
-	
 }
+
 @media(max-width:500px){
 
 	#formulario{
@@ -123,15 +125,15 @@ textarea#mensagem{ /*Consertar responsividade*/
 	.conteudo{
 		width:100%;
 	}
-	#logocontato{ /*Acrescentado*/
+	#logocontato{
 			width:220px;
 			height:54px;
 	}
-	#informacoes{/*Acrescentado*/
+	#informacoes{
 		width:355px;
 		font-size:14px;
 	}
-	#cont{/*Acrescentado*/
+	#cont{
 		font-size:20px;
 	}
 	

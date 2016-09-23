@@ -5,6 +5,12 @@ body{
 	overflow-x: hidden;
 
 }
+
+#logo{
+	height:70px;
+	justify-content:center;
+}
+
 label img{
 	width:28px;
 	height:28px;
@@ -31,18 +37,11 @@ header label:hover{
 	opacity:0.5;
 }
 .menu{
-
 	justify-content:center;
 	flex-wrap:wrap;
 
 }
-#logo{
-	/*Acrescentado*/
-	height:50px;
-	margin-bottom:3px;
-	margin-top:3px;
-	justify-content:center;
-}
+
 .menu ul{
 	margin:0px;
 	list-style:none;
