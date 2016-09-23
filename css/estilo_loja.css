@@ -1,6 +1,4 @@
-body{
-	font-family: "Open Sans", "arial", sans-serif;
-}
+@charset "utf-8";
 
 #itens{
 	display:inline-flex;
@@ -9,13 +7,11 @@ body{
 /* Criação de Sites */
 
 .produto-cs{
-	/*border:2px #000 solid;*/
 	width:220px;
 	padding-left:auto;
 	text-align:center;
 	margin-top: 15px;
 	margin-right:130px;
-
 }
 
 /* Manutenção de Sites */
@@ -27,7 +23,7 @@ body{
 	margin-right:50px;
 }
 
-#descricao-ms{
+.descricao{
 	width: 85%;
 	margin-left: -50px;
 	margin-top: 40px;
@@ -103,13 +99,13 @@ a#contato-al{
 	width:220px;
 }
 
-.produtos{
+.descricao-servicos{
 	display:inline-flex;
 	flex-wrap:wrap;
 	justify-content:center;
 }
 
-.produtos a{
+.descricao-servicos a{
 	text-decoration:none;
 	color:#000;
 }
@@ -192,7 +188,7 @@ a#contato-al{
 	text-decoration:none;
 	color:#fff;
 	font-size:40px;
-	margin:0px 15px;
+	margin:0 15px;
 }
 .imagem a:nth-child(2){ /*Só para imagem*/
 	margin:0;
