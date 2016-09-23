@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 /* -- Geral -- */
 
 body{
@@ -19,7 +21,24 @@ body{
 footer{
 	min-height:60px;
 	padding-top:18px;
+    padding-bottom: 5px;
 	background:#778899;
+}
+
+#footer{
+    text-align: center;
+    text-decoration: none;
+}
+
+#redes-sociais{
+width: 130px;
+margin-left: 1000px;
+margin-top: -47px;
+}
+
+footer img{
+    width: 40px;
+    height: 40px;
 }
 
 @media(max-width:750px){
